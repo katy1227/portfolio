@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.top-name {
+  @apply font-bold text-7xl drop-shadow-2xl font-name;
+}
+
+.title {
+  @apply font-bold text-center text-4xl my-14;
+}
+
+.profile {
+  @apply flex flex-col justify-center items-center mx-20;
+}
+
+.profileIcon {
+  @apply h-52 w-52 rounded-full;
+}
+
+.profileName {
+  @apply font-name text-2xl text-center my-9;
+}
+
+.skillBar {
+  @apply h-1.5 bg-blue-600 rounded;
+}
