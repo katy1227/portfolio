@@ -11,7 +11,7 @@
 }
 
 .subTitle {
-  @apply font-medium underline underline-offset-4 text-center text-5xl mt-20 mb-10;
+  @apply font-title underline underline-offset-4 text-center text-5xl mt-20 mb-10;
 }
 
 .profile {
@@ -28,4 +28,12 @@
 
 .skillBar {
   @apply h-1.5 bg-blue-600 rounded;
+}
+
+.hoverLink {
+  @apply hover:text-blue-500 cursor-pointer;
+}
+
+.contactFlex {
+  @apply flex justify-center items-center;
 }

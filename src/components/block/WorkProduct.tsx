@@ -8,7 +8,7 @@ const WorkProduct = (props: workProduct) => {
         href={siteUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="mt-5 hover:text-blue-500"
+        className="mt-5 hoverLink"
       >
         <img src={imgUrl} alt={imgAlt} height={300} width={400} />
         <h3 className="font-title">{title}</h3>
