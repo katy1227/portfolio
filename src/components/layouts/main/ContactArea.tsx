@@ -3,7 +3,7 @@ const ContactArea = () => {
   const { FaInstagram, FiMail, FiTwitter } = importIcon();
   return (
     <div id="contact" className="flex flex-col justify-center items-center">
-      <h3 className="title">Contact</h3>
+      <h3 className="subTitle">Contact</h3>
       <h4 className="my-6">
         お問い合わせは、SNSまたはメールにてお願いします。
       </h4>

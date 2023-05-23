@@ -7,7 +7,7 @@ const ProfileLayout = (props: profileUser) => {
       <img src={imgUrl} alt={imgAlt} className="profileIcon" />
       <div>
         <h3 className="profileName">{name}</h3>
-        <div className="font-title">{about}</div>
+        <div className="font-title whitespace-pre-wrap">{about}</div>
       </div>
     </div>
   );

@@ -2,33 +2,23 @@ import { importImg } from "../../../utils";
 import WorkProduct from "../../block/WorkProduct";
 
 const WorksArea = () => {
-  const { ocean } = importImg();
+  const { geeklife, instaclone } = importImg();
   return (
     <div id="works">
-      <h3 className="title">Works</h3>
-      <div className="flex justify-evenly flex-wrap">
+      <h3 className="subTitle">Works</h3>
+      <div className="flex justify-around flex-wrap content-around">
         <WorkProduct
-          title="タイトル"
-          tag="Design / Coding(Responsive) / WordPress"
-          imgUrl={ocean}
+          title="Geek Life"
+          tag="Design / Ruby on Rails / JavaScript"
+          siteUrl="https://careerpassforgeeksalon.fly.dev/"
+          imgUrl={geeklife}
           imgAlt="作成したアプリの写真"
         />
         <WorkProduct
-          title="タイトル"
-          tag="Design / Coding(Responsive) / WordPress"
-          imgUrl={ocean}
-          imgAlt="作成したアプリの写真"
-        />
-        <WorkProduct
-          title="タイトル"
-          tag="Design / Coding(Responsive) / WordPress"
-          imgUrl={ocean}
-          imgAlt="作成したアプリの写真"
-        />
-        <WorkProduct
-          title="タイトル"
-          tag="Design / Coding(Responsive) / WordPress"
-          imgUrl={ocean}
+          title="インスタクローンアプリ"
+          tag="Design / React / TypeScript / Ruby on Rails / Responsive"
+          siteUrl="https://insta-backend.fly.dev/"
+          imgUrl={instaclone}
           imgAlt="作成したアプリの写真"
         />
       </div>

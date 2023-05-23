@@ -10,6 +10,7 @@ export type profileUser = {
 export type workProduct = {
   title: ReactNode;
   tag: ReactNode;
+  siteUrl: string;
   imgUrl: string;
   imgAlt: string;
 };

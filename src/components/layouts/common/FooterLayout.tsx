@@ -8,7 +8,7 @@ const FooterLayout = () => {
       <Link
         to="top"
         smooth={true}
-        offset={-150}
+        offset={-100}
         className="hover:text-blue-500 cursor-pointer"
       >
         <FaAngleUp size={30} />
@@ -28,7 +28,7 @@ const FooterLayout = () => {
           <Link
             to="about"
             smooth={true}
-            offset={-150}
+            offset={-50}
             className="hover:text-blue-500 cursor-pointer"
           >
             ABOUT
@@ -39,7 +39,7 @@ const FooterLayout = () => {
           <Link
             to="skill"
             smooth={true}
-            offset={-150}
+            offset={-50}
             className="hover:text-blue-500 cursor-pointer"
           >
             SKILL
@@ -50,7 +50,7 @@ const FooterLayout = () => {
           <Link
             to="works"
             smooth={true}
-            offset={-150}
+            offset={-100}
             className="hover:text-blue-500 cursor-pointer"
           >
             WORKS
@@ -61,7 +61,7 @@ const FooterLayout = () => {
           <Link
             to="contact"
             smooth={true}
-            offset={-150}
+            offset={-100}
             className="hover:text-blue-500 cursor-pointer"
           >
             CONTACT
