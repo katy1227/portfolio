@@ -15,6 +15,10 @@ module.exports = {
         link: ["Mukta"],
       },
     },
+    screens: {
+      sp: "500px",
+      pc: "1200px",
+    },
   },
   plugins: [],
 };

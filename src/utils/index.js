@@ -18,10 +18,12 @@ import instaclone from "../assets/images/instaclone.png";
 import kohei from "../assets/images/kohei.jpg";
 import takahiro from "../assets/images/takahiro.jpeg";
 
+// アイコンをまとめてimport関数
 export const importIcon = () => {
   return { FaAngleUp, FaInstagram, FiMail, FiTwitter };
 };
 
+// 画像をまとめてimport関数
 export const importImg = () => {
   return {
     kohei,

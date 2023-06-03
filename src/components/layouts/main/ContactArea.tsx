@@ -4,10 +4,10 @@ const ContactArea = () => {
   return (
     <div id="contact" className="contactFlex flex-col ">
       <h3 className="subTitle">Contact</h3>
-      <h4 className="my-6">
+      <h4 className="my-6 mx-12">
         お問い合わせは、SNSまたはメールにてお願いします。
       </h4>
-      <div className="flex mb-20">
+      <div className="pc:flex mb-20">
         <div className="mr-6 font-sans">
           <a
             href="https://twitter.com/tkhrtrd0710"

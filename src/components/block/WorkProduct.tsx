@@ -3,7 +3,7 @@ import { workProduct } from "../../types/props";
 const WorkProduct = (props: workProduct) => {
   const { title, tag, siteUrl, imgUrl, imgAlt } = props;
   return (
-    <div className="mt-7">
+    <div className="mt-7 mx-5">
       <a
         href={siteUrl}
         target="_blank"
@@ -11,7 +11,7 @@ const WorkProduct = (props: workProduct) => {
         className="mt-5 hoverLink"
       >
         <img src={imgUrl} alt={imgAlt} height={300} width={400} />
-        <h3 className="font-title">{title}</h3>
+        <h3 className="font-title pc:text-center w-2/3">{title}</h3>
         <div className="font-tag">{tag}</div>
       </a>
     </div>
