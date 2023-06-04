@@ -16,7 +16,7 @@ module.exports = {
       },
     },
     screens: {
-      sp: "750px",
+      sp: { max: "750px" },
       pc: "950px",
     },
   },
