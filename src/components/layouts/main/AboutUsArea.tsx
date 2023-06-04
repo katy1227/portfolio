@@ -27,7 +27,7 @@ const AboutUsArea = () => {
   return (
     <div ref={ref} id="about">
       {inView && (
-        <div className="animate-slide-in-fwd-center">
+        <div className="pc:animate-slide-in-fwd-center">
           <h3 className="subTitle">About Us</h3>
           <div className="pc:flex">
             <div className="flex flex-col items-center h-4/5 pc:w-1/2">

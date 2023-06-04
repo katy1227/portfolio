@@ -13,7 +13,7 @@ const FooterLayout = () => {
   return (
     <footer ref={ref} className="font-link bg-blue-400 py-7 text-blue-50 ">
       {inView && (
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center pc:animate-slide-in-fwd-center">
           <Link to="top" smooth={true} offset={-100} className="hoverLink">
             <FaAngleUp size={30} />
           </Link>

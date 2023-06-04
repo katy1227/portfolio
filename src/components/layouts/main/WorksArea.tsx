@@ -13,7 +13,7 @@ const WorksArea = () => {
   return (
     <div ref={ref} id="works">
       {inView && (
-        <div className="animate-slide-in-fwd-center">
+        <div className="pc:animate-slide-in-fwd-center">
           <h3 className="subTitle">Works</h3>
           <div className="flex justify-around flex-wrap content-around">
             <WorkProduct

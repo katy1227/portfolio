@@ -12,7 +12,7 @@ const ContactArea = () => {
   return (
     <div ref={ref} id="contact" className="contactFlex flex-col">
       {inView && (
-        <div className="animate-slide-in-fwd-center">
+        <div className="pc:animate-slide-in-fwd-center">
           <h3 className="subTitle">Contact</h3>
           <h4 className="my-6 mx-12">
             お問い合わせは、SNSまたはメールにてお願いします。
