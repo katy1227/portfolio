@@ -22,10 +22,10 @@ const AboutUsArea = () => {
     <div id="about">
       <h3 className="subTitle">About Us</h3>
       <div className="pc:flex">
-        <div className="flex flex-col items-center h-4/5">
+        <div className="flex flex-col items-center h-4/5 pc:w-1/2">
           <ProfileLayout
             name="Kohei Miyoshi"
-            about={`三好 航平(みよし こうへい)と申します。\n来年の4月からフルスタックエンジニアとして働きます。\nWeb開発関係のインターンシップを合計約２年間，２社で行っております。\nHTML/CSS、JavaScript、Vue.js、Ruby on Rails, FastAPI(Python)などによるウェブ開発やPythonによる機械学習による研究などの経験があります。また，趣味としてのデスクトップアプリ制作や，ゲーム開発などを行ってきました。\nより良い価値提供をするためのお手伝いをできることを楽しみにしております。`}
+            about={`三好 航平(みよし こうへい)と申します。\n来年の4月からフルスタックエンジニアとして働きます。\nWeb開発関係のインターンシップを合計約2年間、2社で行っております。\nHTML/CSS、JavaScript、Vue.js、Ruby on Rails, FastAPI(Python)などによるウェブ開発やPythonによる機械学習による研究などの経験があります。また，趣味としてのデスクトップアプリ制作や、ゲーム開発などを行ってきました。\nより良い価値提供をするためのお手伝いをできることを楽しみにしております。`}
             imgUrl={kohei}
             imgAlt="こうへいの画像です"
           />
@@ -81,10 +81,10 @@ const AboutUsArea = () => {
           </div>
         </div>
 
-        <div className="flex flex-col items-center h-4/5">
+        <div className="flex flex-col items-center h-4/5 pc:w-1/2">
           <ProfileLayout
             name="Takahiro Terada"
-            about={`私は寺田 卓広(てらだ たかひろ)です。\n来年の4月からフロントエンドエンジニアになります。\n現在は、ReactとTypeScriptを使ったアプリケーション作成やホームページ作成をインターンや趣味で行っております。\nHTML/CSS、JavaScript、ReactJS、TypeScript、Ruby on Railsを扱うことができます。\nあなたの素敵な想いを形にするお手伝いをさせてください。`}
+            about={`私は寺田 卓広(てらだ たかひろ)です。\n来年の4月からフロントエンドエンジニアとして働きます。\n現在は、ReactとTypeScriptを使ったアプリケーション作成やホームページ作成をインターンや趣味で行っております。\nHTML/CSS、JavaScript、ReactJS、TypeScript、Ruby on Railsを扱うことができます。\nあなたの素敵な想いを形にするお手伝いをさせてください。`}
             imgUrl={takahiro}
             imgAlt="たかひろの画像です"
           />
