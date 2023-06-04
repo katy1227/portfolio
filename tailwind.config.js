@@ -16,8 +16,8 @@ module.exports = {
       },
     },
     screens: {
-      sp: "500px",
-      pc: "1200px",
+      sp: "750px",
+      pc: "950px",
     },
   },
   plugins: [],
