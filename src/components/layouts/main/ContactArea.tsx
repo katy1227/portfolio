@@ -10,13 +10,13 @@ const ContactArea = () => {
   });
 
   return (
-    <div ref={ref} id="contact" className="contactFlex flex-col">
+    <article ref={ref} id="contact" className="contactFlex flex-col">
       {inView && (
-        <div className="pc:animate-slide-in-fwd-center">
+        <section className="pc:animate-slide-in-fwd-center">
           <h3 className="subTitle">Contact</h3>
-          <h4 className="my-6 mx-12">
+          <p className="my-6 mx-12">
             お問い合わせは、SNSまたはメールにてお願いします。
-          </h4>
+          </p>
           <div className="pc:flex mb-20">
             <div className="mr-6 font-sans">
               <a
@@ -46,9 +46,9 @@ const ContactArea = () => {
               </a>
             </div>
           </div>
-        </div>
+        </section>
       )}
-    </div>
+    </article>
   );
 };
 

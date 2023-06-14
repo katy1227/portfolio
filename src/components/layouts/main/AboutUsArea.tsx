@@ -37,7 +37,7 @@ const AboutUsArea = () => {
                 imgUrl={kohei}
                 imgAlt="こうへいの画像です"
               />
-              <div className="mt-10 pc:mx-20">
+              <div id="skill" className="mt-10 pc:mx-20">
                 <AboutSkill
                   skillName="JavaScript"
                   className="w-11/12 skillBar"
