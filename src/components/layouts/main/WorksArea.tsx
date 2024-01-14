@@ -3,7 +3,7 @@ import { importImg } from "../../../utils";
 import WorkProduct from "../../block/WorkProduct";
 
 const WorksArea = () => {
-  const { geeklife, instaclone } = importImg();
+  const { geeklife, instaclone, aus } = importImg();
 
   const [ref, inView] = useInView({
     rootMargin: "-10px 0px",
@@ -28,6 +28,13 @@ const WorksArea = () => {
               tag="Design / React / TypeScript / Ruby on Rails / Responsive"
               siteUrl="https://insta-backend.fly.dev/"
               imgUrl={instaclone}
+              imgAlt="作成したアプリの写真"
+            />
+            <WorkProduct
+              title="オーストラリア留学企業のホームページ"
+              tag="Design / Wordpress / Canva / Resposive"
+              siteUrl="https://milan121365.xsrv.jp/"
+              imgUrl={aus}
               imgAlt="作成したアプリの写真"
             />
           </div>
