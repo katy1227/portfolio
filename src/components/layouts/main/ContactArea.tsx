@@ -20,15 +20,6 @@ const ContactArea = () => {
           <div className="pc:flex mb-20">
             <div className="mr-6 font-sans">
               <a
-                href="https://twitter.com/tkhrtrd0710"
-                className="hoverLink contactFlex"
-              >
-                <FiTwitter className="mr-1" />
-                Twitter
-              </a>
-            </div>
-            <div className="mr-6 font-sans">
-              <a
                 href="https://www.instagram.com/fennecnoprograming/"
                 className="hoverLink contactFlex"
               >
