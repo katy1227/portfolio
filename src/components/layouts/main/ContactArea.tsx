@@ -2,7 +2,7 @@ import { useInView } from "react-intersection-observer";
 import { importIcon } from "../../../utils";
 
 const ContactArea = () => {
-  const { FaInstagram, FiMail, FiTwitter } = importIcon();
+  const { FaInstagram, FiMail } = importIcon();
 
   const [ref, inView] = useInView({
     rootMargin: "-10px 0px",
